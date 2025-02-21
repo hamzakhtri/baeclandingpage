@@ -501,7 +501,6 @@ section.section.sectors-sections .theme-check-list {
 .contact-page-sec .contact-page-form {
     display: inline-block;
     width: 100%;
-    margin-top: 30px;
 }
 
 .contact-page-sec .contact-page-map {
@@ -578,6 +577,30 @@ section.section.sectors-sections .theme-check-list {
     border-top: 1px solid #d3d3d329;
 }
 
+.row.mt-5.footer-contact-info {}
+
+.row.mt-5.footer-contact-info .contact-info-icon {
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+.row.mt-5.footer-contact-info .contact-info-text {
+    font-size: 16px;
+
+}
+
+.row.mt-5.footer-contact-info .contact-info-text span {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.row.mt-5.footer-contact-info .contact-info-text a {
+    text-decoration: none !important;
+}
+
+.row.mt-5.footer-contact-info .contact-info-text h2 {
+    color: white;
+}
 
 
 @media only screen and (max-width: 1024px) {
